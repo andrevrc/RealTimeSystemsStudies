@@ -1,0 +1,1 @@
+- Fazer um programa em C que receba a data de nascimento e retorne o número de segundos até hoje que a pessoa já viveu.
