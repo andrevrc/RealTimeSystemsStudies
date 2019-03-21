@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
 	i = 0;
 	while (ptrStrDate != NULL) {
 		strcpy(strDate[i], ptrStrDate);
-		printf("%s\n", strDate[i]);
+		//printf("%s\n", strDate[i]);
 		i++;
 
 		ptrStrDate = strtok(NULL, "/");
@@ -37,6 +37,8 @@ int main(int argc, char* argv[]) {
 	//double birthSecs = difftime(time(NULL), mktime(&birth));
 
 	printf("A quantidade de segundos que você já viveu foi: %ld", (time(NULL) - mktime(&birth))); //birthSecs);
+	
+	printf("\n\n\n\n");
 
 	return 0;
 }
