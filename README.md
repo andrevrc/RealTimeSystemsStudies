@@ -1,2 +1,2 @@
-# RealTimeSystemsStudies
-Studies related to real-time systems class.
+# Sistemas de Tempo Real
+Estudos relacionados a disciplina de Sistemas de Tempo Real.
